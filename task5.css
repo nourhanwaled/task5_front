@@ -1,0 +1,282 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #888;
+}
+/*start of navbar*/
+nav{
+    background-color: black;
+    position: relative;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+ .logo img{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    float: left;
+    overflow: hidden;
+    vertical-align: middle;
+}
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+nav ul li{
+    float: left;
+    overflow: hidden;
+    padding: 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: coral;
+}
+nav ul li .btn1{
+    text-transform: capitalize;
+    position: absolute;
+    right: 120px;
+    top: 20px;
+    width: 100px;
+    padding: 5px;
+    height: 40px;
+    float: right;
+    background-color: coral;
+    color: #888;
+    font-size: 20px;
+    border-radius: 15px;
+    border-color: black;
+    overflow: hidden;
+    cursor: pointer;
+}
+nav ul li .btn1:hover,nav ul li .btn2:hover{
+    color: white;
+    background-color: #888;
+}
+nav ul li .btn2{
+    text-transform: capitalize;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 80px;
+    padding: 5px;
+    height: 40px;
+    float: right;
+    background-color: coral;
+    color: #888;
+    font-size: 20px;
+    border-radius: 15px;
+    border-color: black;
+    overflow: hidden;
+    cursor: pointer;
+}
+/*end of navbar*/
+/*start of header*/
+header{
+    width: 90%;
+    position: relative;
+    margin: auto;
+    height: 350px;
+    background-image: url(images/back-ground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+header img{
+    width: 50%;
+    height: 400px;
+}
+header h1{
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    font-size: 50px;
+    padding-top: 40px;
+}
+.btn3{
+    text-transform: capitalize;
+    position: absolute;
+    left: 510px;
+    top: 160px;
+    width: 130px;
+    padding: 5px;
+    height: 40px;
+    background-color:coral;
+    color: #888;
+    font-size: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.btn4{
+    text-transform: capitalize;
+    position: absolute;
+   left: 660px;
+    top: 160px;
+    width: 100px;
+    padding: 5px;
+    height: 40px;
+    float: right;
+    background-color: coral;
+    color: #888;
+    font-size: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.btn3:hover,.btn4:hover{
+    color: white;
+    background-color: #888;
+}
+/*end of header*/
+/*start of products*/
+.sec1{
+    width: 100%;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+}
+.product1{
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    display: inline-block;
+    position: relative;
+    margin-right: 40px;
+}
+.product1 h1{
+    padding: 20px;
+    color: #454545;
+    font-size: 40px;
+}
+.product1 .img1{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+.product1 .img2{
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+}
+.product1 .img3{
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+}
+.p1{
+    text-decoration: line-through;
+    color: #888;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 30px;
+}
+.p2{
+    color: #888;
+    padding: 30px;
+    font-size: 20px;
+}
+.product1 .btn5{
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100px;
+    padding: 5px;
+    height: 40px;
+    background-color: coral;
+    color: #888;
+    font-size: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.product1 .btn5:hover{
+    color: white;
+    background-color: #888;
+}
+/*end of products*/
+/*start of table*/
+table{
+    text-align: center;
+    margin-top: 50px;
+    text-transform: capitalize;
+    width: 70%;
+    margin: auto;
+    font-size: 20px;
+    border-collapse: collapse;
+}
+table th{
+  border: solid 3px black;
+  padding: 10px;
+  border-collapse: collapse;
+  background-color:coral;
+}
+table tr{
+   border: solid 3px black;
+  border-collapse: collapse;
+    font-weight: bold;
+}
+table td{
+   border: solid 3px black;
+   border-collapse: collapse;
+}
+table img{
+    width: 80px;
+    height: 90px;
+    margin: 10px 0px;
+}
+table tr:nth-child(even){
+   background-color: lightgrey;
+}
+table tr:nth-child(odd){
+  background-color: white;
+}
+table tr:hover{
+    background-color: coral;
+}
+table .btn6{
+    text-transform: capitalize;
+    width: 120px;
+    height: 40px;
+    background-color: coral;
+    color: #888;
+    font-size: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    cursor: pointer;
+}
+table .btn6:hover{
+    color: white;
+    background-color: #888;
+}
+/*end of table*/
+/*start of footer*/
+footer{
+    width: 100%;
+    margin-top: 50px;
+    height: 15px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 60px;
+}
+footer p{
+    text-align: center;
+}
+/*end of footer*/
